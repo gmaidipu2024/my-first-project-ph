@@ -89,6 +89,24 @@ margin-bottom: 20px;
   cursor: pointer;
   transition-duration: 0.4s;
 }
+.hover3:hover{
+  background-color: #139907;
+  color:white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.hover4:hover{
+  background-color: #7e09ed;
+  color:white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.hover5:hover{
+  background-color: #a0e708;
+  color:white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
 
 .hero_sec2{
   padding-right: 35px;
@@ -119,25 +137,47 @@ margin-bottom: 20px;
   border-radius: 8px;
   margin-top: 15px;
   margin-bottom: 15px;
-  padding: 20px;
+  padding: 15px;
 }
 .pillars3{
   background-color: rgb(198, 228, 214);
   border-radius: 8px;
   margin-top: 15px;
   margin-bottom: 15px;
-  padding: 20px;
+  padding: 15px;
 }
 .pillars4{
   background-color: rgb(247, 235, 207);
   border-radius: 8px;
   margin-top: 15px;
   margin-bottom: 15px;
-  padding: 20px;
+  padding: 15px;
 }
+.pillars4 p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pillars2 p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pillars3 p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .pillars1 p{
   color: rgba(14, 14, 14, 0.7);
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -158,4 +198,65 @@ margin-bottom: 20px;
   justify-content: center;
   align-items: center ;
   margin: 0 auto;
+}
+.pera{
+  color:rgba(14, 14, 14, 0.7);
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.btn3{
+  background-color: #09a15c;
+  color: white;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn2{
+  background-color: #5490f5;
+  color: white;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn4{
+  background-color: #ffc239;
+  color: white;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.whitespace{
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.quatation{
+  background-image: url('../assets/quote-bg.png');
+  background-repeat: no-repeat;
+  
+  
+}
+.quatation p{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+.quatation h3{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
