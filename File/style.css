@@ -10,8 +10,8 @@ body{
   font-family: "Fira Sans", serif;
 }
 .main{
-  width: 910px;
-  height: auto;
+  max-width: 910px;
+  /* height: auto; */
   margin-left: 120px;
   margin-right: 120px;
 }
@@ -22,6 +22,7 @@ body{
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 0  20px 0  0;
 }
 
 .myNavbar h1{
@@ -76,6 +77,18 @@ margin-bottom: 20px;
   border: none;
   border-radius: 5px;
 }
+.hover1:hover{
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.hover2:hover{
+  background-color: #008CBA;
+  color:white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
 
 .hero_sec2{
   padding-right: 35px;
@@ -85,26 +98,42 @@ margin-bottom: 20px;
   width: 336px;
   height: 240px;
 }
-/* Hero aria */
+/* Vision aria */
 .main_pillars{
   margin-top:50px;
   margin-bottom: 20px;
-  
-
 }
 .main_pillars h1{
   font-size: 40px;
-  
-  /* margin-left: 232px; */
-
 }
 .pillars1{
-  background-color: #ffffff;
+  background-color: rgba(84, 144, 245, 0.2);
   border-radius: 8px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 20px;
  
+}
+.pillars2{
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.pillars3{
+  background-color: rgb(198, 228, 214);
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.pillars4{
+  background-color: rgb(247, 235, 207);
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
 }
 .pillars1 p{
   color: rgba(14, 14, 14, 0.7);
