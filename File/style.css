@@ -1,39 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
 
-*{
+* {
   padding: 0px;
   margin: 0px;
 }
 
-body{
+body {
   background-color: #f5f5f5;
   font-family: "Fira Sans", serif;
 }
-.main{
+.main {
   max-width: 910px;
-  margin-left: 120px;
-  margin-right: 120px;
+  /* margin-left: 120px;
+  margin-right: 120px; */
+  margin: 0 auto;
 }
 /* Navbar aria */
-.myNavbar{
+.myNavbar {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 0  20px 0  0;
+  padding: 0 20px 0 0;
 }
 
-.myNavbar h1{
+.myNavbar h1 {
   color: #0e0e0e;
   font-family: Fira Sans;
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
-  
 }
 
-.myNavbar button{
+.myNavbar button {
   color: #006a50;
   background-color: #f5f5f5;
   padding: 15px 30px 15px 30px;
@@ -42,7 +42,7 @@ body{
   box-sizing: border-box;
 }
 /* Hero aria */
-.hero_main{
+.hero_main {
   width: 910px;
   height: 397px;
   background-color: #c6e4d6;
@@ -51,148 +51,188 @@ body{
   justify-content: space-around;
   align-items: center;
   border-radius: 24px;
-  
 }
 
-.hero_sec1{
+.hero_sec1 {
   padding: 35px;
 }
 
-.hero_sec1 h4{
+.hero_sec1 h4 {
   font-size: 20px;
   margin-bottom: 10px;
-  color:#0E0E0E80;
+  color: #0e0e0e80;
 }
 
-.hero_sec1 h1{
-font-size: 40px;
-margin-bottom: 20px;
+.hero_sec1 h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.hero_sec1 button{
+.hero_sec1 button {
   padding: 10px 20px 10px 20px;
   color: white;
-  background-color: #006A50;
+  background-color: #006a50;
   border: none;
   border-radius: 5px;
 }
-.hover1:hover{
-  background-color: #04AA6D;
+.hover1:hover {
+  background-color: #04aa6d;
   color: white;
   cursor: pointer;
   transition-duration: 0.4s;
 }
-.hover2:hover{
-  background-color: #008CBA;
-  color:white;
+.hover2:hover {
+  background-color: #008cba;
+  color: white;
   cursor: pointer;
   transition-duration: 0.4s;
 }
-.hover3:hover{
+.hover3:hover {
   background-color: #139907;
-  color:white;
+  color: white;
   cursor: pointer;
   transition-duration: 0.4s;
 }
-.hover4:hover{
+.hover4:hover {
   background-color: #7e09ed;
-  color:white;
+  color: white;
   cursor: pointer;
   transition-duration: 0.4s;
 }
-.hover5:hover{
+.hover5:hover {
   background-color: #a0e708;
-  color:white;
+  color: white;
   cursor: pointer;
   transition-duration: 0.4s;
 }
-.hover6:hover{
+.hover6:hover {
   background-color: #a0e708;
-  color:white;
+  color: white;
   cursor: pointer;
   transition-duration: 0.4s;
 }
-.hover7:hover{
+.hover7:hover {
   background-color: #a0e708;
-  color:white;
+  color: white;
   cursor: pointer;
   transition-duration: 0.4s;
 }
-.hover8:hover{
+.hover8:hover {
   background-color: #6f1be3;
-  color:white;
+  color: white;
   cursor: pointer;
   transition-duration: 0.4s;
 }
-.hover9:hover{
+.hover9:hover {
   background-color: #a0e708;
-  color:white;
+  color: white;
   cursor: pointer;
   transition-duration: 0.4s;
 }
+.hover10:hover {
+  background-color: #a0e708;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  && p:hover {
+    color: white;
+  }
+  && h2 {
+    color: white;
+  }
+}
+.hover11:hover {
+  background-color: #4545e86e;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  && p:hover {
+    color: white;
+  }
+  && h2 {
+    color: white;
+  }
+}
+.hover12:hover {
+  background-color: #7f09ed80;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  && p:hover {
+    color: white;
+  }
+  && h2 {
+    color: white;
+  }
+}
+.hover13:hover {
+  background-color: #c2f22380;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  && p:hover {
+    color: white;
+  }
+  && h2 {
+    color: white;
+  }
+}
 
-
-
-.hero_sec2{
+.hero_sec2 {
   padding-right: 35px;
 }
 
-.hero_pic{
+.hero_pic {
   width: 336px;
   height: 240px;
 }
 /* Vision aria */
-.main_pillars{
-  margin-top:50px;
+.main_pillars {
+  margin-top: 50px;
   margin-bottom: 20px;
 }
-.main_pillars h1{
+.main_pillars h1 {
   font-size: 40px;
 }
-.pillars1{
+.pillars1 {
   background-color: rgba(84, 144, 245, 0.2);
   border-radius: 8px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 20px;
- 
 }
-.pillars2{
+.pillars2 {
   background-color: rgba(84, 144, 245, 0.2);
   border-radius: 8px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 15px;
 }
-.pillars3{
+.pillars3 {
   background-color: rgb(198, 228, 214);
   border-radius: 8px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 15px;
 }
-.pillars4{
+.pillars4 {
   background-color: rgb(247, 235, 207);
   border-radius: 8px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 15px;
 }
-.pillars4 p{
+.pillars4 p {
   color: rgba(14, 14, 14, 0.7);
   font-size: 14px;
   margin-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.pillars2 p{
+.pillars2 p {
   color: rgba(14, 14, 14, 0.7);
   font-size: 14px;
   margin-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.pillars3 p{
+.pillars3 p {
   color: rgba(14, 14, 14, 0.7);
   font-size: 14px;
   margin-bottom: 10px;
@@ -200,39 +240,37 @@ margin-bottom: 20px;
   margin-bottom: 10px;
 }
 
-.pillars1 p{
+.pillars1 p {
   color: rgba(14, 14, 14, 0.7);
   font-size: 12px;
   margin-bottom: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.pillars1 h2{
+.pillars1 h2 {
   color: rgba(14, 14, 14, 0.8);
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.pillars_img{
+.pillars_img {
   width: 100px;
   height: auto;
-
 }
-.sub_pillars{
+.sub_pillars {
   display: flex;
   gap: 15px;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
   margin: 0 auto;
 }
-.pera{
-  color:rgba(14, 14, 14, 0.7);
+.pera {
+  color: rgba(14, 14, 14, 0.7);
   font-size: 14px;
   line-height: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  
 }
-.btn3{
+.btn3 {
   background-color: #09a15c;
   color: white;
   padding: 11px 20px 11px 20px;
@@ -241,7 +279,7 @@ margin-bottom: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.btn2{
+.btn2 {
   background-color: #5490f5;
   color: white;
   padding: 11px 20px 11px 20px;
@@ -250,7 +288,7 @@ margin-bottom: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.btn4{
+.btn4 {
   background-color: #ffc239;
   color: white;
   padding: 11px 20px 11px 20px;
@@ -259,46 +297,45 @@ margin-bottom: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.whitespace{
+.whitespace {
   background-color: white;
   padding: 20px;
   border-radius: 20px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.quatation{
-  background-image: url('../assets/quote-bg.png');
+.quatation {
+  background-image: url("../assets/quote-bg.png");
   background-repeat: no-repeat;
+}
 
- }
-
-.quatation p{
+.quatation p {
   color: rgba(14, 14, 14, 0.8);
   font-size: 13px;
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 25px;
 }
-.quatation h3{
+.quatation h3 {
   color: rgba(14, 14, 14, 0.8);
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.recent p{
+.recent p {
   color: rgba(14, 14, 14, 0.8);
   font-size: 13px;
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 25px;
 }
-.recent h1{
+.recent h1 {
   color: rgba(14, 14, 14, 0.8);
   font-size: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.Satellite{
+.Satellite {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,52 +345,49 @@ margin-bottom: 20px;
   margin-bottom: 20px;
   margin-top: 10px;
   gap: 10px;
-
 }
-.Satellite p{
+.Satellite p {
   color: rgba(14, 14, 14, 0.7);
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 10px;
   margin-top: 10px;
-  
 }
-.Satellite span{
+.Satellite span {
   color: rgba(14, 14, 14, 0.7);
   font-size: 10px;
   font-weight: 400;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.stimg{
+.stimg {
   width: 340px;
   height: 260px;
   border-radius: 20px;
 }
-.Satellite h2{
+.Satellite h2 {
   margin-bottom: 10px;
 }
-.donate{
+.donate {
   text-align: center;
   margin-top: 50px;
 }
-.donate h1{
-color: #0e0e0e;
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 700;
-margin-bottom: 20px;
+.donate h1 {
+  color: #0e0e0e;
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
-.donate p{
-color: rgba(14, 14, 14, 0.7);
-font-size: 14px;
-line-height: 20px;
-margin-bottom: 20px;
-padding:0 20px;
-
+.donate p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
 }
-.btn5{
+.btn5 {
   background-color: white;
   color: black;
   padding: 11px 20px 11px 20px;
@@ -362,19 +396,19 @@ padding:0 20px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   box-sizing: border-box;
   border-radius: 8px;
-  padding:30px 30px;
+  padding: 30px 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.donate_price{
+.donate_price {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
 }
-.btn6{
-  background-color: #C6E4D6;
+.btn6 {
+  background-color: #c6e4d6;
   color: black;
   padding: 11px 20px 11px 20px;
   font-size: 35px;
@@ -382,11 +416,11 @@ padding:0 20px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   box-sizing: border-box;
   border-radius: 8px;
-  padding:30px 30px;
+  padding: 30px 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.donet_input{
+.donet_input {
   background-color: white;
   width: 850px;
   height: auto;
@@ -400,85 +434,100 @@ padding:0 20px;
   text-align: center;
   font-size: 30px;
   padding: 20px;
-  color:#b6b6b6;
+  color: #b6b6b6;
   border: none;
   outline: none;
 }
-.btn7{
+.btn7 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btn8{
-  background-color: #006A50;
+.btn8 {
+  background-color: #006a50;
   color: white;
   font-size: 16px;
-  padding:20px 20px;
+  padding: 20px 20px;
   border: none;
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.subscrib{
-  background-color: #C6E4D6;
+.subscrib {
+  background-color: #c6e4d6;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  border-radius: 10px ;
+  border-radius: 10px;
   margin-bottom: 50px;
   margin-top: 50px;
   padding: 50px 0;
-  
 }
 
-.subscrib input{
- 
+.subscrib input {
   text-align: center;
   font-size: 10px;
   padding: 5px;
-  color:#b6b6b6;
+  color: #b6b6b6;
   border: none;
   outline: none;
-  width:100%;
+  width: 100%;
   text-align: start;
   border-radius: 10px 0px 0px 10px;
 }
-.sub_input{
+.sub_input {
   display: flex;
-  border-radius: 10px ;
+  border-radius: 10px;
   width: 65%;
   height: 40px;
   margin-top: 10px;
-  
 }
 .sub_ph h2 {
-  color: #0E0E0E;
+  color: #0e0e0e;
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.sub_ph p{
-  color: #0E0E0EB3;
+.sub_ph p {
+  color: #0e0e0eb3;
   font-size: 10px;
   margin-top: 10px;
-  
 }
-.promise{
-  color: #0E0E0EB3;
+.promise {
+  color: #0e0e0eb3;
   font-size: 10px;
   margin-bottom: 20px;
   margin-top: 20px;
-
 }
-.sub_input button{
-  background-color: #006A50;
+.sub_input button {
+  background-color: #006a50;
   color: white;
   border: none;
-  padding:0 15px;
+  padding: 0 15px;
   border-radius: 0px 10px 10px 0px;
 }
-.footer{
-  
+.myfooter {
+  background-color: white;
+  padding: 0 20px;
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+
+  text-align: center;
+}
+.fth2 {
+  color: #0e0e0e;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.footer_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 10px;
 }
