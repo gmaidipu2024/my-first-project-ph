@@ -11,7 +11,6 @@ body{
 }
 .main{
   max-width: 910px;
-  /* height: auto; */
   margin-left: 120px;
   margin-right: 120px;
 }
@@ -107,6 +106,32 @@ margin-bottom: 20px;
   cursor: pointer;
   transition-duration: 0.4s;
 }
+.hover6:hover{
+  background-color: #a0e708;
+  color:white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.hover7:hover{
+  background-color: #a0e708;
+  color:white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.hover8:hover{
+  background-color: #6f1be3;
+  color:white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.hover9:hover{
+  background-color: #a0e708;
+  color:white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+
 
 .hero_sec2{
   padding-right: 35px;
@@ -311,7 +336,7 @@ margin-bottom: 20px;
 }
 .donate{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .donate h1{
 color: #0e0e0e;
@@ -325,6 +350,7 @@ color: rgba(14, 14, 14, 0.7);
 font-size: 14px;
 line-height: 20px;
 margin-bottom: 20px;
+padding:0 20px;
 
 }
 .btn5{
@@ -370,10 +396,13 @@ margin-bottom: 20px;
   justify-content: center;
   align-items: center;
 }
-.donet_input h1 {
+.donet_input input {
   text-align: center;
-  padding: 10px;
+  font-size: 30px;
+  padding: 20px;
   color:#b6b6b6;
+  border: none;
+  outline: none;
 }
 .btn7{
   display: flex;
@@ -389,4 +418,67 @@ margin-bottom: 20px;
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+.subscrib{
+  background-color: #C6E4D6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px ;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 50px 0;
+  
+}
+
+.subscrib input{
+ 
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+  color:#b6b6b6;
+  border: none;
+  outline: none;
+  width:100%;
+  text-align: start;
+  border-radius: 10px 0px 0px 10px;
+}
+.sub_input{
+  display: flex;
+  border-radius: 10px ;
+  width: 65%;
+  height: 40px;
+  margin-top: 10px;
+  
+}
+.sub_ph h2 {
+  color: #0E0E0E;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sub_ph p{
+  color: #0E0E0EB3;
+  font-size: 10px;
+  margin-top: 10px;
+  
+}
+.promise{
+  color: #0E0E0EB3;
+  font-size: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+.sub_input button{
+  background-color: #006A50;
+  color: white;
+  border: none;
+  padding:0 15px;
+  border-radius: 0px 10px 10px 0px;
+}
+.footer{
+  
 }
